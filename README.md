@@ -92,7 +92,7 @@ For IBM Runtime execution:
 - ROI-mean activity can be represented as linear Ising biases.
 - Pearson correlation captures pairwise coupling strength.
 - Hard-thresholding at `0.25` is acceptable sparsification.
-- QAOA depth (`reps=2`) and COBYLA iterations (`maxiter=25`) are insufficient for a first pass.
+- QAOA depth (`reps=2`) and COBYLA iterations (`maxiter=25`) are  for a first pass.
 
 These are tunable choices and can be expanded for sensitivity analyses.
 
