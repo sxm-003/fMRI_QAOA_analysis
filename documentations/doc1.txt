@@ -2,8 +2,15 @@ DATED 14 March 2026:
 PerformeD the analysis of top 100 regions on fMRI data .
 The mistake i realised is that the top 100 regions also include common regions but i stil wanted to test it .
 
-DATED 15 2026:
+DATED 15 March 2026:
 Ran QAOA on ibm_marrakesh , the qaoa was for 1 rep, didnt converge completely during estimation.
 The sampler was ran for 1000 shots on the parameters obtained from lowest energy , got result of 1000 different bitstrings with same frequency with same probability. 
 Highly degenerate space.
 Failure .
+
+DATED 16 March 2026:
+Fixed the qubit mapping to all ROIs instead of jus the top ones .  
+Ran QAOA on ibm_fez , minmise failed due to insufficient max_iters. 
+Ran Sampler for 10000 shots base don the lowest energy parameters obtained from the minmise. 
+Recieved all unique bitstrings with same probability .
+Failure. 
